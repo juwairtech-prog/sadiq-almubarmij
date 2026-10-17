@@ -3,19 +3,87 @@
 <html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#101d22">
-  <meta name="description" content="صديق المبرمج: مساحة لتنظيم الدراسة وكتابة الأكواد البرمجية دون إنترنت.">
-
-  <title>صديق المبرمج</title>
-
+  <meta name="description" content="صديق المبرمج - رفيقك في الدراسة والبرمجة">
+  <title>صديق المبرمج | مساحتك الرقمية</title>
   <link rel="stylesheet" href="style.css">
   <script src="app.js" defer></script>
 </head>
-
 <body>
-  <h1>صديق المبرمج</h1>
-  <p>مساحتك للدراسة والبرمجة والإبداع.</p>
+
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="صديق المبرمج">
+      <span class="brand-icon">&lt;/&gt;</span>
+      <span>صديق المبرمج</span>
+    </a>
+    <button class="theme-button" onclick="MadarApp.toggleTheme()"
+      aria-label="تبديل المظهر">◐ المظهر</button>
+  </header>
+
+  <main class="container">
+    <section class="welcome">
+      <span class="eyebrow">مساحتك، أفكارك، إنجازك</span>
+      <h1>أهلًا بك في عالمك البرمجي.</h1>
+      <p>نظّم دراستك، طوّر مهاراتك، واكتب فكرتك القادمة.</p>
+    </section>
+
+    <section class="section">
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow">ابدأ من هنا</span>
+          <h2>مساحتك العملية</h2>
+        </div>
+      </div>
+
+      <div class="feature-grid">
+        <a class="feature-card code-card" href="#programming">
+          <span class="card-icon">&lt;/&gt;</span>
+          <span class="card-tag">01 / CODE</span>
+          <h3>مختبر الأكواد</h3>
+          <p>اكتب مشاريعك البرمجية ونظّم ملفاتك في مكان واحد.</p>
+          <span class="card-link">استكشف المساحة ←</span>
+        </a>
+
+        <a class="feature-card study-card" href="#study">
+          <span class="card-icon">▤</span>
+          <span class="card-tag">02 / STUDY</span>
+          <h3>منظّم الدراسة</h3>
+          <p>رتّب موادك ومهامك وواجباتك وتابع تقدّمك.</p>
+          <span class="card-link">نظّم يومك ←</span>
+        </a>
+
+        <a class="feature-card tools-card" href="#tools">
+          <span class="card-icon">✳</span>
+          <span class="card-tag">03 / TOOLS</span>
+          <h3>الأدوات الذكية</h3>
+          <p>مساحة للأدوات البرمجية والمساعدة في التعلّم.</p>
+          <span class="card-link">اكتشف الأدوات ←</span>
+        </a>
+
+        <a class="feature-card projects-card" href="#projects">
+          <span class="card-icon">◇</span>
+          <span class="card-tag">04 / PROJECTS</span>
+          <h3>مشاريعي</h3>
+          <p>اجمع أفكارك ومشاريعك وتابع رحلتك في التطوير.</p>
+          <span class="card-link">تابع مشاريعك ←</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="offline-banner">
+      <span class="offline-icon">◉</span>
+      <div>
+        <h3>مساحتك معك أينما كنت</h3>
+        <p>نجهّز التطبيق للعمل محليًا، مع حفظ بياناتك وإتاحة الأدوات دون اتصال.</p>
+      </div>
+    </section>
+
+    <footer>
+      <span>صديق المبرمج</span>
+      <span>تعلّم اليوم، واصنع الغد.</span>
+    </footer>
+  </main>
+
 </body>
 </html>
